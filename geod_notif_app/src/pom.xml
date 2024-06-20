@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+    <artifactId>inail-springboot-archetype</artifactId>
+    <groupId>it.inail</groupId>
+    <version>1.0.2</version>
+  </parent>
+
+    <groupId>it.inail.geodnotifapp</groupId>
+    <artifactId>notif_app-parent</artifactId>
+    <packaging>pom</packaging>
+    <version>1.0.2</version>
+
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <java.version>11</java.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <spring.boot.version>2.5.12</spring.boot.version>
+        <spring.cloud.version>2.2.3.RELEASE</spring.cloud.version>
+        <spring.openapi.version>1.5.13</spring.openapi.version>
+        <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
+        <build-helper-maven-plugin>3.0.0</build-helper-maven-plugin>
+    </properties>
+	
+    <modules>
+        <module>notif_app-srv</module>
+        <module>notif_app-dto</module>
+        <module>notif_app-repositories</module>
+        <module>notif_app-domain</module>
+        <module>notif_app-security</module>
+        <module>notif_app-external</module>
+       <!-- <module>notif_app-contract</module>-->
+    </modules>
+	
+    <dependencyManagement>
+
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>${spring.boot.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+        </dependencies>
+
+    </dependencyManagement>
+
+    <repositories>
+        <repository>
+            <id>redhat-ga</id>
+            <name>Red Hat GA Repository</name>
+            <url>https://maven.repository.redhat.com/ga/</url>
+        </repository>
+    </repositories>
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>redhat-ga</id>
+            <name>Red Hat GA Repository</name>
+            <url>https://maven.repository.redhat.com/ga/</url>
+        </pluginRepository>
+    </pluginRepositories>
+
+</project>
