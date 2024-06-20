@@ -1,0 +1,5 @@
+it/inail/geodnotifapp/TestSecurityConfiguration.class
+it/inail/geodnotifapp/PraticaControllerTest.class
+it/inail/geodnotifapp/WithMockAuthentication.class
+it/inail/geodnotifapp/WithMockAuthenticationSecurityContextFactory.class
+it/inail/geodnotifapp/AbstractControllerTest.class

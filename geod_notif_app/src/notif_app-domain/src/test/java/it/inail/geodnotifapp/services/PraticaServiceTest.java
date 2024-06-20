@@ -110,11 +110,11 @@ public class PraticaServiceTest {
         when(praticaRepository.findById(praticaId)).thenThrow(DataNotFoundException.class);
 
         praticaService.find(praticaId, username);
-        
+
 //        DataNotFoundException exception = assertThrows(DataNotFoundException.class, () -> {
 //            praticaRepository.findById(praticaId);
 //        });
-//        
+//
 //        assertNotNull(exception);
 //      praticaService.find(praticaId, username);
     }

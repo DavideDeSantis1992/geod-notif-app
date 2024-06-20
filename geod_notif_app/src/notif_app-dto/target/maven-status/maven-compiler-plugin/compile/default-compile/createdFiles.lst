@@ -1,0 +1,9 @@
+it/inail/geodnotifapp/dto/MessageDto.class
+it/inail/geodnotifapp/dto/AnagraficaDipedentiResponse.class
+it/inail/geodnotifapp/dto/StoricoDto.class
+it/inail/geodnotifapp/dto/CreatePraticaResponse.class
+it/inail/geodnotifapp/dto/DipendenteRequest.class
+it/inail/geodnotifapp/exceptions/DataNotFoundException.class
+it/inail/geodnotifapp/dto/StoricoMessage.class
+it/inail/geodnotifapp/dto/AnagraficaDipendente.class
+it/inail/geodnotifapp/dto/PraticaDto.class
