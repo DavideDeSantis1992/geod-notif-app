@@ -1,10 +1,10 @@
 #Server configuration
 server:
-  port: 8084
+  port: 8080
   servlet:
     context-path: #Imposta il context path di default : es /tmp-ang-apig/1.0
 
-#Core Configuration
+#Core Configuration  spring.main.allow-bean-definition-overriding=true
 spring:
   main:
     allow-circular-references: true
@@ -15,7 +15,7 @@ spring:
   datasource:
     driver-class-name: org.h2.Driver
     #driver-class-name: oracle.jdbc.driver.OracleDriver #Per Driver Oracle
-    #driver-class-name: com.ibm.db2.jdbc.app.DB2Driver  #Per Driver DB2
+    #driver-class-name: com.ibm.db2.jdbc.app.DB2Driver  #Per Driver DB2s
     hikari:
       connectionTimeout: 60000
       idleTimeout: 30000
@@ -48,24 +48,14 @@ spring:
   jpa:
     open-in-view: false #Disabilita OpenSessionInViewInterceptor che apre una connessione al DB per ogni request.
 
-#Configurazione email
-bodyEmailErrore: errore nella creazione dell'artifact
-oggettoEmailErrore: elaborazione artifact non riuscita
-bodyEmailSuccesso: siamo felici che la creazione dell'artifact e' andata a buon fine
-oggettoEmailSuccesso: elaborazione artifact completata
 
-#Gruppo email
-gruppo1: emailprova1a@gmail.it,emailprova1b@gmail.it #infortunio mensile
-gruppo2: emailprova2a@gmail.it,emailprova2b@gmail.it #infortunio semestrale
-gruppo3: emailprova3a@gmail.it,emailprova3b@gmail.it #malattia mensile
-gruppo4: emailprova4a@gmail.it,emailprova4b@gmail.it #malattia semestrale
+  #Broker Configuration
+  artemis:
+    mode: embedded
+    embedded:
+      enabled: true
+      queues: springbootQueue
 
-#Broker Configuration
-artemis:
-  mode: embedded
-  embedded:
-    enabled: true
-    queues: springbootQueue
 
 #Security Configuration
 inail:
@@ -85,6 +75,8 @@ inail:
     certificateUrl: https://collportale.inail.it/api/GetCA  #loadCertificateFromGateway: false
     hostnameVerify: true  # se impostato a false disabilita in controllo degli hostname nelle chiamate HTTP. Default: true
     trustAllCertificates: false  # se impostato a true disabilita in controllo dei certificati validi nelle chiamate HTTP: Default: false
+
+
 
 #Configurazione per servizi esterni
 external:

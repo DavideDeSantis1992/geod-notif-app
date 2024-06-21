@@ -4,6 +4,7 @@ it/inail/geodnotifapp/configurations/MessagingConfig.class
 it/inail/geodnotifapp/controllers/PraticaController.class
 it/inail/geodnotifapp/controllers/AnagraficaController.class
 it/inail/geodnotifapp/controllers/StoricoController.class
+it/inail/geodnotifapp/controllers/NotificareController.class
 it/inail/geodnotifapp/configurations/SwaggerConfiguration.class
 it/inail/geodnotifapp/filters/LoggingFilter.class
 it/inail/geodnotifapp/controllers/MessageController.class

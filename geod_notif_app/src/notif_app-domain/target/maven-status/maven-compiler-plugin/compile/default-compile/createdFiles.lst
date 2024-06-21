@@ -3,8 +3,10 @@ it/inail/geodnotifapp/services/StoricoService.class
 it/inail/geodnotifapp/queue/EventConsumer.class
 it/inail/geodnotifapp/queue/EventProducer.class
 it/inail/geodnotifapp/services/impl/StoricoServiceImpl.class
+it/inail/geodnotifapp/services/NotificareService.class
 it/inail/geodnotifapp/services/impl/PraticaServiceImpl.class
 it/inail/geodnotifapp/services/impl/AnagraficaServiceImpl.class
 it/inail/geodnotifapp/services/impl/MessageServiceImpl.class
 it/inail/geodnotifapp/services/PraticaService.class
 it/inail/geodnotifapp/services/MessageService.class
+it/inail/geodnotifapp/services/impl/NotificareServiceImpl.class

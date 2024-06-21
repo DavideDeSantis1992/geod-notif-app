@@ -1,8 +1,9 @@
 #Server configuration
 server:
-  port: 8080
+  port: 8083
   servlet:
-    context-path: #Imposta il context path di default : es /tmp-ang-apig/1.0 
+    context-path: #Imposta il context path di default : es /tmp-ang-apig/1.0
+
 
 #Core Configuration  spring.main.allow-bean-definition-overriding=true
 spring:
@@ -47,6 +48,8 @@ spring:
       show-sql: false
   jpa:
     open-in-view: false #Disabilita OpenSessionInViewInterceptor che apre una connessione al DB per ogni request.
+
+
 
     
 #Broker Configuration
@@ -101,4 +104,19 @@ contracts:
   username: <username> #inserire un username valido per provare i test di contratto
 springdoc:
   show-actuator: true
+# Configurazione email
+body-email-successo: siamo felici che la creazione dell'artifact e' andata a buon fine
+oggetto-email-successo: elaborazione artifact completata
+body-email-errore: errore nella creazione dell'artifact
+oggetto-email-errore: elaborazione artifact non riuscita
+
+email-groups:
+  gruppo1: # infortunio mensile
+    emailprova1a@gmail.it,emailprova1b@gmail.it
+  gruppo2: # infortunio semestrale
+    emailprova2a@gmail.it,emailprova2b@gmail.it
+  gruppo3: # malattia mensile
+    emailprova3a@gmail.it,emailprova3b@gmail.it
+  gruppo4: # malattia semestrale
+    emailprova4a@gmail.it,emailprova4b@gmail.it
 

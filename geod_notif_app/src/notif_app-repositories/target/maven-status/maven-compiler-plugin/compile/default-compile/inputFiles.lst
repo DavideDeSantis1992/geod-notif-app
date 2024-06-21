@@ -1,6 +1,12 @@
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/StatoArtifact.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/repositories/StoricoRepository.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/Tipo.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/Notificare.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/mappers/StoricoMapper.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/repositories/PraticaRepository.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/Pratica.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/mappers/PraticaMapper.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/StatoNotifica.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/Frequenza.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/Storico.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-repositories/src/main/java/it/inail/geodnotifapp/models/Email.java

@@ -38,4 +38,15 @@ public class Notificare {
     public void setIdStatoNotifica(StatoNotifica idStatoNotifica) {
         this.idStatoNotifica = idStatoNotifica;
     }
+
+    @Override
+    public String toString() {
+        return "Notificare{" +
+                "idIstanzaProcesso='" + idIstanzaProcesso + '\'' +
+                ", idTipoCd=" + idTipoCd +
+                ", idFrequenzaCd=" + idFrequenzaCd +
+                ", idStatoArtifact=" + idStatoArtifact +
+                ", idStatoNotifica=" + idStatoNotifica +
+                '}';
+    }
 }

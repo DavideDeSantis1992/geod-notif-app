@@ -23,4 +23,12 @@ public class Tipo {
 
     public Tipo() {
     }
+
+    @Override
+    public String toString() {
+        return "Tipo{" +
+                "id='" + id + '\'' +
+                ", descrizione='" + descrizione + '\'' +
+                '}';
+    }
 }

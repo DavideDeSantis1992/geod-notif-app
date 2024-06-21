@@ -50,7 +50,13 @@ public class GeodDatiAppClient {
         processo2.setIdStatoNotifica(null);
 
         List<Notificare> listaProcessi = List.of(processo1, processo2);
-        logger.info("ho preso la lista dei processi dall'endpoint: "+listaProcessi);
+
+        //fai un ciclo sulla listaProcessi e fai   un logger.info per stampare ogni listaProcessi
+        for (Notificare not : listaProcessi) {
+            logger.info("processo: "+not.toString());
+        }
+
+        logger.info("ho preso la lista dei processi dall'endpoint: "+listaProcessi.toString());
 
         return listaProcessi;
     }

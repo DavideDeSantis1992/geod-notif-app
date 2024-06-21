@@ -1,8 +1,14 @@
-it/inail/geodnotifapp/mappers/StoricoMapper.class
+it/inail/geodnotifapp/models/Notificare.class
 it/inail/geodnotifapp/mappers/PraticaMapperImpl.class
-it/inail/geodnotifapp/repositories/StoricoRepository.class
+it/inail/geodnotifapp/models/StatoArtifact.class
 it/inail/geodnotifapp/mappers/StoricoMapperImpl.class
 it/inail/geodnotifapp/repositories/PraticaRepository.class
 it/inail/geodnotifapp/models/Storico.class
+it/inail/geodnotifapp/models/Email.class
 it/inail/geodnotifapp/mappers/PraticaMapper.class
+it/inail/geodnotifapp/mappers/StoricoMapper.class
+it/inail/geodnotifapp/models/Frequenza.class
+it/inail/geodnotifapp/repositories/StoricoRepository.class
+it/inail/geodnotifapp/models/Tipo.class
+it/inail/geodnotifapp/models/StatoNotifica.class
 it/inail/geodnotifapp/models/Pratica.class

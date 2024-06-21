@@ -6,12 +6,14 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
 
+@RestController
 public class NotificareController {
     @Autowired
     private NotificareService notificareService;
     private Logger logger = LoggerFactory.getLogger(NotificareService.class);
-    @PostMapping("/notificare")
+    @PostMapping("/processo/v1/notifica")
     public ResponseEntity<Void> notificare(){
         try{
             logger.info("Notifica ricevuta");// TODO CHIAMARE SERVICE

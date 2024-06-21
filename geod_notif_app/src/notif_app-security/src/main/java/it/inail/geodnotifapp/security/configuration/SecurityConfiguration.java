@@ -1,7 +1,7 @@
 package it.inail.geodnotifapp.security.configuration;
 
-import it.inail.geodnotifapp.security.filters.JwtAuthenticationFilter;
-import it.inail.geodnotifapp.security.filters.JwtTokenHelper;
+//import it.inail.geodnotifapp.security.filters.JwtAuthenticationFilter;
+//import it.inail.geodnotifapp.security.filters.JwtTokenHelper;
 import it.inail.geodnotifapp.security.filters.UnauthorizedAuthenticationEntryPoint;
 import it.inail.geodnotifapp.security.matchers.BasicMatcher;
 import it.inail.geodnotifapp.security.matchers.EmptyRequestMatcher;
@@ -66,8 +66,8 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter implemen
 //    @Autowired
 //    private AuthorizationProperties authorizationProperties;
 
-    @Autowired
-    private JwtTokenHelper jwtTokenHelper;
+    //@Autowired
+    //private JwtTokenHelper jwtTokenHelper;
 
     @Autowired
     private ApplicationContext applicationContext;
@@ -88,15 +88,15 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter implemen
 		super(disableDefaults);
 	}
 
-    private JwtAuthenticationFilter buildAuthenticationFilter() throws Exception {
-        JwtAuthenticationFilter autFilter = new JwtAuthenticationFilter(
-                requestMatcher(),
-                buildProperties,
-                jwtTokenHelper
-        );
-        autFilter.setAuthenticationManager(authenticationManager());
-        return autFilter;
-    }
+//    private JwtAuthenticationFilter buildAuthenticationFilter() throws Exception {
+//        JwtAuthenticationFilter autFilter = new JwtAuthenticationFilter(
+//                requestMatcher(),
+//                buildProperties,
+//                jwtTokenHelper
+//        );
+//        autFilter.setAuthenticationManager(authenticationManager());
+//        return autFilter;
+//    }
 
     @Override
     protected void configure(HttpSecurity http) throws Exception {
@@ -121,7 +121,7 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter implemen
                 .antMatchers(ACTUATOR_URL).permitAll()
                 .anyRequest().permitAll();
 
-        http.addFilterBefore(buildAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
+        //http.addFilterBefore(buildAuthenticationFilter(), UsernamePasswordAuthenticationFilter.class);
         http.headers().cacheControl();
 
         log.info("All private resources have been protected.");

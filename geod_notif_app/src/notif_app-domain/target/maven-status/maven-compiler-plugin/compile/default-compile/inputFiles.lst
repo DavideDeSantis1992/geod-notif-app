@@ -7,4 +7,6 @@
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-domain/src/main/java/it/inail/geodnotifapp/services/StoricoService.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-domain/src/main/java/it/inail/geodnotifapp/services/impl/AnagraficaServiceImpl.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-domain/src/main/java/it/inail/geodnotifapp/services/impl/PraticaServiceImpl.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-domain/src/main/java/it/inail/geodnotifapp/services/impl/NotificareServiceImpl.java
 /Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-domain/src/main/java/it/inail/geodnotifapp/services/PraticaService.java
+/Users/TheForger7/Desktop/geod-notif-app/geod_notif_app/src/notif_app-domain/src/main/java/it/inail/geodnotifapp/services/NotificareService.java

@@ -17,4 +17,11 @@ public class StatoNotifica {
 
     public StatoNotifica() {
     }
+
+    @Override
+    public String toString() {
+        return "StatoNotifica{" +
+                "descrizione='" + descrizione + '\'' +
+                '}';
+    }
 }

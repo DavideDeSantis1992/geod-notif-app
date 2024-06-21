@@ -24,4 +24,12 @@ public class Frequenza {
 
     public Frequenza() {
     }
+
+    @Override
+    public String toString() {
+        return "Frequenza{" +
+                "id='" + id + '\'' +
+                ", descrizione='" + descrizione + '\'' +
+                '}';
+    }
 }
