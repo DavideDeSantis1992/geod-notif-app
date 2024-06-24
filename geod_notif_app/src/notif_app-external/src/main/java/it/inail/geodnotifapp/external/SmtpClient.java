@@ -1,5 +1,4 @@
 package it.inail.geodnotifapp.external;
-import it.inail.geodnotifapp.models.Email;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

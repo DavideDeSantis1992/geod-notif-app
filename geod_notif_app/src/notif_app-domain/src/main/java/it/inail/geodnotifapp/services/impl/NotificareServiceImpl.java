@@ -1,9 +1,8 @@
 package it.inail.geodnotifapp.services.impl;
 
+import it.inail.geodnotifapp.dto.Notificare;
 import it.inail.geodnotifapp.external.GeodDatiAppClient;
 import it.inail.geodnotifapp.external.SmtpClient;
-import it.inail.geodnotifapp.models.Email;
-import it.inail.geodnotifapp.models.Notificare;
 import it.inail.geodnotifapp.services.NotificareService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

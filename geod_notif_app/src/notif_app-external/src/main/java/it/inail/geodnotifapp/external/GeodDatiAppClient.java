@@ -1,8 +1,5 @@
 package it.inail.geodnotifapp.external;
 
-import it.inail.geodnotifapp.models.Frequenza;
-import it.inail.geodnotifapp.models.Notificare;
-import it.inail.geodnotifapp.models.Tipo;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package it.inail.geodnotifapp.models;
+package it.inail.geodnotifapp.dto;
 
 public class Notificare {
     private String idIstanzaProcesso;

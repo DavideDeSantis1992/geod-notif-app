@@ -1,4 +1,4 @@
-package it.inail.geodnotifapp.models;
+package it.inail.geodnotifapp.dto;
 
 import java.util.List;
 
